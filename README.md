@@ -35,55 +35,6 @@ Augmented-AirPainting-with-Hand/
 
 ---
 
-## 🛠️ Installation
-
-### 1. Prerequisites
-
-- Python 3.8+
-- Webcam
-- **Tesseract OCR** (for letter recognition)  
-  👉 Download for Windows: [UB-Mannheim Tesseract](https://github.com/UB-Mannheim/tesseract/wiki)
-
-### 2. Clone / Download
-
-```bash
-git clone https://github.com/y/AirInk.git
-cd AirInk
-```
-
-### 3. Install Python dependencies
-
-```bash
-pip install -r requirements.txt
-```
-
-**requirements.txt** includes:
-| Package | Version | Purpose |
-|---|---|---|
-| `opencv-python` | 4.8.1.78 | Camera & image processing |
-| `mediapipe` | 0.10.14 | Hand landmark detection |
-| `numpy` | 1.26.4 | Array operations |
-| `pytesseract` | 0.3.13 | OCR — letter recognition |
-| `Pillow` | 10.4.0 | Image conversion for OCR |
-
-### 4. Set Tesseract path (Windows)
-
-Open `Augmented_Hand_Drawing.py` and update line 8 with your Tesseract install path:
-
-```python
-pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'
-```
-
----
-
-## ▶️ Run
-
-```bash
-python Augmented_Hand_Drawing.py
-```
-
----
-
 ## 🤚 Gesture Guide
 
 | Gesture | Action |
