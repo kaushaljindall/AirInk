@@ -17,23 +17,6 @@
 
 ---
 
-## 🗂️ Project Structure
-
-```
-Augmented-AirPainting-with-Hand/
-│
-├── Augmented_Hand_Drawing.py   # Main app — drawing + word builder
-├── HandDetectionModule.py      # Hand detector class (MediaPipe wrapper)
-├── requirements.txt            # Python dependencies
-├── Header/                     # Colour-picker toolbar images
-│   ├── 1.png                   # Purple brush
-│   ├── 2.png                   # Blue brush
-│   ├── 3.png                   # Green brush
-│   └── 4.png                   # Eraser
-└── README.md
-```
-
----
 
 ## 🤚 Gesture Guide
 
